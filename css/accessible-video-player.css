@@ -1,0 +1,73 @@
+#wrapper {
+    width: 100%;
+  }
+  /* BEGIN Webflow customized player */
+  .able-status-bar {
+    min-height: 40px;
+    padding: 10px;
+    color: #171717;
+  }
+  .able-controller {
+    padding: 10px;
+    border-color: #e1e4f1;
+  }
+  .able {
+    box-shadow: none;
+  }
+  div.able-skin-2020 div.able-seekbar-wrapper {
+    width: 100%;
+    margin: 0px;
+  }
+  .able-window-toolbar {
+    display: flex;
+    align-items: center;
+    border-color: #e1e4f1;
+  }
+  .able-window-toolbar label {
+    color: #000;
+    margin-bottom: 0px;
+  }
+  .able-transcript-area {
+    border-style: none;
+  }
+  .able-captions {
+    font-family: inherit !important;
+    color: #000 !important;
+  }
+  /* BEGIN Color of controllers */
+  .able-white-controls, .able-white-controls div[role=button], .able-black-controls label {
+    color: initial !important;
+  }
+  /* END Color of controllers
+  /* BEGIN Transparent background */
+  .able-transcript, .able-transcript-area, .able-window-toolbar, .able, div.able-captions-below, .able-player, div.able-captions {
+    background-color: transparent !important;
+  }
+  /* END Transparent background */
+
+  /* BEGIN Background that matches dropdown background */
+  .able-vidcap-container, .able-status-bar, .able-controller {
+    background-color: transparent !important;
+  }
+  /* END Background that matches dropdown background */
+  #chapters {
+    float: left;
+    min-width: 12em;
+    width: 30%;
+    padding-right: 1em;
+  }
+  #chapters ul {
+    border: 1px solid #AAA;
+  }
+  #player-plus {
+    float: left;
+    width: 65%;
+  }
+  div.able-chapters-div button:focus,
+  div.able-chapters-div button:hover,
+  div.able-chapters-div button::-moz-focus-inner {
+    background-color: #666;
+    color: #FFF;
+  }
+
+  /* END Webflow customized player */
